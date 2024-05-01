@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 import { useAuth } from '../../hooks/auth';
 
-import { Container, Form } from "./styles";
+import { Container, Form, LogoWrapper } from "./styles";
 
 import { Label } from "../../components/Label";
 import { Input } from "../../components/Input";
@@ -60,7 +60,10 @@ export function SignIn() {
 
   return(
     <Container>
-      <img src={Logo} alt="Logo Food Explorer" />
+      <LogoWrapper className='logo-wrapper'>
+        <img src={Logo} alt="Logo Food Explorer" />
+        Explorando sabores, alimentando momentos 
+      </LogoWrapper>
 
       <Form onSubmit={handleSignIn}>
         <h2>Faça login</h2>
@@ -69,7 +72,7 @@ export function SignIn() {
           <Label title="Email" htmlFor="email" />
           <Input
             type="email"
-            placeholder="Exemplo: exemplo@exemplo.com.br"
+            placeholder="Exemplo: meAprovaMaykão@gmail.com"
             id="email"
             name="email"
             validation={emailClass}
