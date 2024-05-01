@@ -1,5 +1,5 @@
 import { Container } from './styles';
-import logo from "/assets/LogoWebb-white.png";
+import logo from "assets/LogoWebb-white.png";
 
 export function Footer(){
   return (
