@@ -1,6 +1,4 @@
-<div align="center">
-   <img src="https://github.com/jeadamek/rocketMovies_backend/assets/78454317/bee3ecf0-0193-4c38-9bec-004d1a679227" width="80px"/>
-</div>
+
 <h3 align="center">🚀 Final Project | Frontend - Explorer</h3>
 
 <div align="center">
